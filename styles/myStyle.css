@@ -1,0 +1,23 @@
+body::-webkit-scrollbar {
+    width: 30px;
+    height: 6px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-right: 12px #101726 solid;
+    border-left: 12px #101726 solid;
+    border-top: 90px #101726 solid;
+    border-bottom: 90px #101726 solid;
+    background-clip: padding-box;
+  }
+
+
+  textarea {
+    resize: none;
+  }
+
+  input,
+  textarea {
+    outline: none;
+  }
