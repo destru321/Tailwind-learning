@@ -6,6 +6,9 @@ module.exports = {
     },
 
     extend: {
+      height: {
+        '128': '32rem',
+      }
     },
   },
   plugins: [],

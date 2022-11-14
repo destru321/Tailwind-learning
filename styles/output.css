@@ -513,13 +513,17 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-auto {
+  margin: auto;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
 .mx-20 {
   margin-left: 5rem;
   margin-right: 5rem;
-}
-
-.ml-20 {
-  margin-left: 5rem;
 }
 
 .mt-5 {
@@ -530,12 +534,52 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .flex {
   display: flex;
 }
 
 .h-screen {
   height: 100vh;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-1\/2 {
+  height: 50%;
+}
+
+.h-128 {
+  height: 32rem;
+}
+
+.h-\[32rem\] {
+  height: 32rem;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -546,6 +590,10 @@ video {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -554,23 +602,48 @@ video {
   justify-content: space-evenly;
 }
 
+.rounded-tl-2xl {
+  border-top-left-radius: 1rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-\[\#A38881\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(163 136 129 / var(--tw-border-opacity));
+}
+
 .bg-\[\#101726\] {
   --tw-bg-opacity: 1;
   background-color: rgb(16 23 38 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\] {
+  background-image: url('/img/hero-pattern.svg');
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .text-center {
   text-align: center;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-\[\#D8D8D6\] {
